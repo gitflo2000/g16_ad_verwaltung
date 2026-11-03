@@ -346,26 +346,28 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\fb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj",
-      "projectName": "g16_ad_verwaltung_DotNet4",
-      "projectPath": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/home/codespace/g16_ad_verwaltung/obj/",
+      "projectUniqueName": "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj",
+      "projectName": "g16_ad_verwaltung",
+      "projectPath": "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj",
+      "packagesPath": "C:\\Users\\fb\\.nuget\\packages\\",
+      "outputPath": "C:\\g16_ad_verwaltung\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

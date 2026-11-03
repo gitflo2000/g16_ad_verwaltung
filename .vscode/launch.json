@@ -8,7 +8,7 @@
             "name": "Launch",
             "type": "mono",
             "request": "launch",
-            "program": "${workspaceRoot}/program.exe",
+            "program": "${workspaceRoot}/bin/Debug/g16_ad_verwaltung_DotNet4.exe",
             "cwd": "${workspaceRoot}"
         },
         {

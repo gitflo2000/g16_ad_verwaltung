@@ -1,27 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung.csproj": {}
+    "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj": {}
   },
   "projects": {
-    "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung.csproj": {
+    "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung.csproj",
+        "projectUniqueName": "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj",
         "projectName": "g16_ad_verwaltung",
-        "projectPath": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/home/codespace/g16_ad_verwaltung/obj/",
+        "projectPath": "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj",
+        "packagesPath": "C:\\Users\\fb\\.nuget\\packages\\",
+        "outputPath": "C:\\g16_ad_verwaltung\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net461"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

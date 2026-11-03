@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "prl6FeM9wpI=",
+  "dgSpecHash": "j6kNvSWnf4c=",
   "success": true,
-  "projectFilePath": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj",
+  "projectFilePath": "C:\\g16_ad_verwaltung\\g16_ad_verwaltung.csproj",
   "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/microsoft.netframework.referenceassemblies.net461/1.0.3/microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512"
+    "C:\\Users\\fb\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.3\\microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }

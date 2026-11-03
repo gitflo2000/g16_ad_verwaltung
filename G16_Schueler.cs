@@ -240,17 +240,15 @@ namespace g16_ad_verwaltung
 
             CreateGroup(currentOU);
             
-            int existentAccounts = 0;
+            int createdAccounts = 0;
             int nameSuffix = 1;
             string userList = "";
-            //fgdfgdfgdfgd
-            
-            while(existentAccounts < count)
+
+            while (createdAccounts < count)
             {
                 string accountName = safeOuName + nameSuffix.ToString("00");
                 if (!AccountNameExists(accountName))
                 {
-                    // Account erstellen
                     string vorName = klaSuffix + nameSuffix.ToString("00");
                     string nachName = safeLastname;
                     string password = GeneratePW();
@@ -263,6 +261,7 @@ namespace g16_ad_verwaltung
                         temp_schueler.Join();
 
                         userList += accountName + ": " + password + Environment.NewLine;
+                        createdAccounts++;
                     }
                     catch
                     {
@@ -271,7 +270,6 @@ namespace g16_ad_verwaltung
                 }
 
                 nameSuffix++;
-                existentAccounts++;
             }
 
             return userList;
