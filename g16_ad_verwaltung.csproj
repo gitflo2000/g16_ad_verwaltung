@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F4B9199-8994-45D1-8969-F0B27B59CD4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>g16_ad_verwaltung</RootNamespace>
+    <AssemblyName>g16_ad_verwaltung</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_ADBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ADBrowser.Designer.cs">
+      <DependentUpon>Form_ADBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AddOU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AddOU.Designer.cs">
+      <DependentUpon>Form_AddOU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ConfirmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ConfirmDelete.Designer.cs">
+      <DependentUpon>Form_ConfirmDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CreateSchueler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CreateSchueler.Designer.cs">
+      <DependentUpon>Form_CreateSchueler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GenerateKA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GenerateKA.Designer.cs">
+      <DependentUpon>Form_GenerateKA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_NewPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_NewPassword.Designer.cs">
+      <DependentUpon>Form_NewPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PickOU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PickOU.Designer.cs">
+      <DependentUpon>Form_PickOU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_UserList.Designer.cs">
+      <DependentUpon>Form_UserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Wait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Wait.Designer.cs">
+      <DependentUpon>Form_Wait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G16_Schueler.cs" />
+    <Compile Include="G16_Schueler_Properties.cs" />
+    <Compile Include="KaGenInfo.cs" />
+    <Compile Include="modListViewItem.cs" />
+    <Compile Include="modObjects.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rowData.cs" />
+    <Compile Include="UserParams.cs" />
+    <Compile Include="wait.cs" />
+    <EmbeddedResource Include="Form_ADBrowser.resx">
+      <DependentUpon>Form_ADBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AddOU.resx">
+      <DependentUpon>Form_AddOU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ConfirmDelete.resx">
+      <DependentUpon>Form_ConfirmDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CreateSchueler.resx">
+      <DependentUpon>Form_CreateSchueler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GenerateKA.resx">
+      <DependentUpon>Form_GenerateKA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_NewPassword.resx">
+      <DependentUpon>Form_NewPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PickOU.resx">
+      <DependentUpon>Form_PickOU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserList.resx">
+      <DependentUpon>Form_UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Wait.resx">
+      <DependentUpon>Form_Wait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
