@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj": {}
+  },
+  "projects": {
+    "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj",
+        "projectName": "g16_ad_verwaltung_DotNet4",
+        "projectPath": "/home/codespace/g16_ad_verwaltung/g16_ad_verwaltung_DotNET4.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/home/codespace/g16_ad_verwaltung/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "framework": "net461",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "framework": "net461",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies.net461": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
